@@ -1,0 +1,33 @@
+.SIBtn {
+  position: relative;
+  display: inline-flexbox;
+  padding-left: 50%;
+  padding-top: 5%;
+}
+.SIBtn a {
+  position: relative;
+  display: flexbox;
+  box-sizing: border-box;
+  border-radius: 15px;
+  color: #1302faef;
+  background-color: #05e45a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 32px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.SIBtn a:hover {
+  color: #ffffff;
+  background: #05e45a;
+  box-shadow: 0 0 10px #05e45a, 0 0 10px #05e45a, 0 0 10px #05e45a;
+  transition-delay: 1s;
+}
+
+.SIBtn a span {
+  position: absolute;
+  display: block;
+}

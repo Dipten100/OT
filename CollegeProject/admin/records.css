@@ -1,0 +1,31 @@
+.content-block {
+  position: relative;
+  background-color: white;
+  opacity: 0.7;
+  padding: 15px;
+  margin-left: 60px;
+  border-left: 3px solid #ddd;
+  border-top: 3px solid #48b1d9;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.content-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  margin: 0 0 8px;
+}
+.user {
+  font-weight: bolder;
+}
+.content-middle {
+  font-size: 22px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  word-wrap: break-word !important;
+  text-align: left !important;
+}
+.content-footer {
+  font-size: 22px;
+}

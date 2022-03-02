@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto+Serif:wght@500&display=swap");
+
+body {
+  background-color: #323259;
+  font-family: "Roboto Serif", sans-serif;
+  color: aliceblue;
+}
+.header {
+  padding: 5% 20%;
+  background-color: rgba(141, 8, 250, 0.151);
+  font-size: 48px;
+  color: #91e9dd;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  z-index: 9;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 20% 20%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd44;
+  text-align: center;
+  padding: 3% 2%;
+}
